@@ -15,6 +15,7 @@ class CenterWindow(QWidget):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         self.resize(250, 150)
 

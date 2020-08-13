@@ -16,6 +16,7 @@ class RightClickMenu(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         exitAct = QAction(QIcon('exit24.png'), 'Exit', self)
         exitAct.setShortcut('Ctrl+Q')

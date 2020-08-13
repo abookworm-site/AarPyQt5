@@ -16,6 +16,7 @@ class SonMenuBar(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         # 菜单栏
         menubar = self.menuBar()

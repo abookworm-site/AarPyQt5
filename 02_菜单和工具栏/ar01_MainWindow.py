@@ -15,6 +15,7 @@ class MainWindow(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         self.statusBar().showMessage('Ready')
 

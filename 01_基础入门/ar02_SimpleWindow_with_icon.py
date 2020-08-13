@@ -15,11 +15,14 @@ class IconWindow(QWidget):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
+        # window setting
         self.setGeometry(300, 300, 300, 200)
 
         self.setWindowTitle('Icon')
 
+        # 获取本地
         self.setWindowIcon(QIcon('web.png'))
 
         self.show()

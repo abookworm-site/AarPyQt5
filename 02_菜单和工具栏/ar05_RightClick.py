@@ -15,6 +15,7 @@ class RightClickMenu(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
         # window settings
         self.setGeometry(500, 500, 250, 150)
         self.setWindowTitle('Context menu')

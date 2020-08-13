@@ -14,6 +14,7 @@ class MessageWindows(QWidget):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         self.setGeometry(300, 300, 300, 200)
 

@@ -16,6 +16,7 @@ class MenuBar(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         # 退出键 设置
         exitAct = QAction(QIcon('exit.png'), '&Exit', self)

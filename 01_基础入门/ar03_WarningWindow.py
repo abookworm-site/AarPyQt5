@@ -12,6 +12,7 @@ class WarningWindow(QWidget):
         self.initUI()
 
     def initUI(self):
+        """初始化UI界面"""
 
         QToolTip.setFont(QFont('SansSerif', 10))
 
