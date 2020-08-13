@@ -21,22 +21,24 @@ class Slider(QWidget):
         # 创建水平的滑块模块
         slider = QSlider(Qt.Horizontal, self)
 
+        # ？？？
         slider.setFocusPolicy(Qt.NoFocus)
 
-        slider.setGeometry(30, 40, 100, 30)
+        slider.setGeometry(50, 40, 400, 30)
 
         slider.valueChanged[int].connect(self.changeValue)
 
-        # self 指本身名称
+        # 参数 self 指本身的名称
         self.label = QLabel(self)
 
         # 提前在本地准备 mute.png
         self.label.setPixmap(QPixmap('mute.png'))
 
-        self.label.setGeometry(160, 40, 80, 30)
+        # 此处后两项与图片大小相关，前两项为相对左上角的位置信息
+        self.label.setGeometry(140, 80, 260, 260)
 
         # window settings
-        self.setGeometry(500, 500, 280, 200)
+        self.setGeometry(500, 500, 500, 360)
         self.setWindowTitle("Slider")
         self.show()
 
